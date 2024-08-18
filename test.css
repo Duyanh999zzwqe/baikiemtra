@@ -1,0 +1,19 @@
+.container { 
+    width: 100%; /* Adjusted for responsiveness */
+    height: 65px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* Vertically center the links */
+ }
+ 
+ a {
+     text-decoration: none; /* Removes underline from links */
+     color: black; /* Default link color */
+     font-size: 50px; /* Adjust the font size as needed */
+ }
+ 
+ a:hover {
+     color: yellow;
+ }
+ 
